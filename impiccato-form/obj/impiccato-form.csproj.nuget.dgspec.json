@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pasqui.filippo\\Desktop\\C# TI FACCIO UN TUTORIAL\\impiccato-form\\impiccato-form\\impiccato-form.csproj": {}
+    "C:\\Users\\maupq\\OneDrive\\Desktop\\form-impiccato\\impiccato-form\\impiccato-form.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pasqui.filippo\\Desktop\\C# TI FACCIO UN TUTORIAL\\impiccato-form\\impiccato-form\\impiccato-form.csproj": {
+    "C:\\Users\\maupq\\OneDrive\\Desktop\\form-impiccato\\impiccato-form\\impiccato-form.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pasqui.filippo\\Desktop\\C# TI FACCIO UN TUTORIAL\\impiccato-form\\impiccato-form\\impiccato-form.csproj",
+        "projectUniqueName": "C:\\Users\\maupq\\OneDrive\\Desktop\\form-impiccato\\impiccato-form\\impiccato-form.csproj",
         "projectName": "impiccato-form",
-        "projectPath": "C:\\Users\\pasqui.filippo\\Desktop\\C# TI FACCIO UN TUTORIAL\\impiccato-form\\impiccato-form\\impiccato-form.csproj",
-        "packagesPath": "C:\\Users\\pasqui.filippo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pasqui.filippo\\Desktop\\C# TI FACCIO UN TUTORIAL\\impiccato-form\\impiccato-form\\obj\\",
+        "projectPath": "C:\\Users\\maupq\\OneDrive\\Desktop\\form-impiccato\\impiccato-form\\impiccato-form.csproj",
+        "packagesPath": "C:\\Users\\maupq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maupq\\OneDrive\\Desktop\\form-impiccato\\impiccato-form\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\pasqui.filippo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\maupq\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,8 +39,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -68,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
