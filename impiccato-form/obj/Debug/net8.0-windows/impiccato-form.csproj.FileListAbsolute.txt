@@ -1,0 +1,17 @@
+C:\Users\pasqui.filippo\Desktop\C# TI FACCIO UN TUTORIAL\impiccato-form\impiccato-form\bin\Debug\net8.0-windows\impiccato-form.exe
+C:\Users\pasqui.filippo\Desktop\C# TI FACCIO UN TUTORIAL\impiccato-form\impiccato-form\bin\Debug\net8.0-windows\impiccato-form.deps.json
+C:\Users\pasqui.filippo\Desktop\C# TI FACCIO UN TUTORIAL\impiccato-form\impiccato-form\bin\Debug\net8.0-windows\impiccato-form.runtimeconfig.json
+C:\Users\pasqui.filippo\Desktop\C# TI FACCIO UN TUTORIAL\impiccato-form\impiccato-form\bin\Debug\net8.0-windows\impiccato-form.dll
+C:\Users\pasqui.filippo\Desktop\C# TI FACCIO UN TUTORIAL\impiccato-form\impiccato-form\bin\Debug\net8.0-windows\impiccato-form.pdb
+C:\Users\pasqui.filippo\Desktop\C# TI FACCIO UN TUTORIAL\impiccato-form\impiccato-form\obj\Debug\net8.0-windows\impiccato_form.Form1.resources
+C:\Users\pasqui.filippo\Desktop\C# TI FACCIO UN TUTORIAL\impiccato-form\impiccato-form\obj\Debug\net8.0-windows\impiccato-form.csproj.GenerateResource.cache
+C:\Users\pasqui.filippo\Desktop\C# TI FACCIO UN TUTORIAL\impiccato-form\impiccato-form\obj\Debug\net8.0-windows\impiccato-form.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pasqui.filippo\Desktop\C# TI FACCIO UN TUTORIAL\impiccato-form\impiccato-form\obj\Debug\net8.0-windows\impiccato-form.AssemblyInfoInputs.cache
+C:\Users\pasqui.filippo\Desktop\C# TI FACCIO UN TUTORIAL\impiccato-form\impiccato-form\obj\Debug\net8.0-windows\impiccato-form.AssemblyInfo.cs
+C:\Users\pasqui.filippo\Desktop\C# TI FACCIO UN TUTORIAL\impiccato-form\impiccato-form\obj\Debug\net8.0-windows\impiccato-form.csproj.CoreCompileInputs.cache
+C:\Users\pasqui.filippo\Desktop\C# TI FACCIO UN TUTORIAL\impiccato-form\impiccato-form\obj\Debug\net8.0-windows\impiccato-form.dll
+C:\Users\pasqui.filippo\Desktop\C# TI FACCIO UN TUTORIAL\impiccato-form\impiccato-form\obj\Debug\net8.0-windows\refint\impiccato-form.dll
+C:\Users\pasqui.filippo\Desktop\C# TI FACCIO UN TUTORIAL\impiccato-form\impiccato-form\obj\Debug\net8.0-windows\impiccato-form.pdb
+C:\Users\pasqui.filippo\Desktop\C# TI FACCIO UN TUTORIAL\impiccato-form\impiccato-form\obj\Debug\net8.0-windows\impiccato-form.genruntimeconfig.cache
+C:\Users\pasqui.filippo\Desktop\C# TI FACCIO UN TUTORIAL\impiccato-form\impiccato-form\obj\Debug\net8.0-windows\ref\impiccato-form.dll
+C:\Users\pasqui.filippo\Desktop\C# TI FACCIO UN TUTORIAL\impiccato-form\impiccato-form\obj\Debug\net8.0-windows\impiccato_form.Properties.Resources.resources
