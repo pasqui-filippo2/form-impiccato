@@ -1,3 +1,5 @@
+using System.Net.Sockets;
+
 namespace impiccato_form
 {
     public partial class Form1 : Form
@@ -6,10 +8,10 @@ namespace impiccato_form
         {
             InitializeComponent();
         }
-        int tentativi = 0, scelta = 0;
+        int tentativi = 0, scelta = 0, cercaL = 0;
         string Psecret = "", Ptratt = "", lett = "";
         char[] lettere = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'z' };
-        bool easy = false, medium = false, hard = false;
+        bool easy = false, medium = false, hard = false, vittoria = false;
         Random rnd = new Random();
         char[] trasforma_parola(string parola, char[] lett, int scelta, char[] secret)
         {
@@ -161,24 +163,203 @@ namespace impiccato_form
 
         private void btnB_Click(object sender, EventArgs e)
         {
+            textBox1.Text = "";
+            lett = "b";
+            textBox1.Text = lett;
 
         }
 
         private void btnA_Click(object sender, EventArgs e)
         {
-            lett = "A";
-            if(Ptratt.Contains(lett))
-            {
-                for(int i = 0;i < Ptratt.Length; i++)
-                {
+            textBox1.Text = "";
+            lett = "a";
+            textBox1.Text = lett;
 
-                }
-            }
         }
 
         private void button23_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "a";
+            if (Psecret.Contains(lett))
+            {
+                Ptratt = Psecret;
+                for (int i = 0; i < Psecret.Length; i++)
+                {
+                    if (Psecret != lett)
+                    {
+                        Ptratt += "_";
+                    }
+                }
+            }
+            else
+            {
+                tentativi--;
+                nup1.Value = tentativi;
+                lblErr.Text = "Hai sbagliato lettera";
+                lblLettErrate.Text = lett;
+                if (tentativi == 0)
+                {
+                    lblParoleSbagliata.Text = Psecret + ",";
+                }
+            }
+            txtParola.Text = "";
+            txtParola.Text = Ptratt;
+            cercaL = 0;
+            for (int i = 0; i < Ptratt.Length; i++)
+            {
+                for (int j = 0; j < lettere.Length; j++)
+                {
+                    if (Ptratt[i] == lettere[j])
+                    {
+                        cercaL++;
+                    }
+                }
+            }
+            if (cercaL == Psecret.Length)
+            {
+                vittoria = true;
+                lblInd.Text = "Hai indovinato la parola";
+            }
+        }
+
+        private void btnWorld_Click(object sender, EventArgs e)
+        {
+            if (Psecret.Contains(textBox1.Text))
+            {
+                lblInd.Text = "Hai indovinato la poarola";
+            }
+        }
+
+        private void btnC_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            lett = "c";
+            textBox1.Text = lett;
+        }
+
+        private void btnD_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            lett = "d";
+            textBox1.Text = lett;
+        }
+
+        private void btnE_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            lett = "e";
+            textBox1.Text = lett;
+        }
+
+        private void btnF_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            lett = "f";
+            textBox1.Text = lett;
+        }
+
+        private void btnG_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            lett = "g";
+            textBox1.Text = lett;
+        }
+
+        private void btnH_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            lett = "h";
+            textBox1.Text = lett;
+        }
+
+        private void btnI_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            lett = "i";
+            textBox1.Text = lett;
+        }
+
+        private void btnL_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            lett = "l";
+            textBox1.Text = lett;
+        }
+
+        private void btnM_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            lett = "m";
+            textBox1.Text = lett;
+        }
+
+        private void btnN_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            lett = "n";
+            textBox1.Text = lett;
+        }
+
+        private void btnO_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            lett = "o";
+            textBox1.Text = lett;
+        }
+
+        private void btnP_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            lett = "p";
+            textBox1.Text = lett;
+        }
+
+        private void btnQ_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            lett = "q";
+            textBox1.Text = lett;
+        }
+
+        private void btnR_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            lett = "r";
+            textBox1.Text = lett;
+        }
+
+        private void btnS_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            lett = "s";
+            textBox1.Text = lett;
+        }
+
+        private void btnT_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            lett = "t";
+            textBox1.Text = lett;
+        }
+
+        private void btnU_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            lett = "u";
+            textBox1.Text = lett;
+        }
+
+        private void btnV_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            lett = "v";
+            textBox1.Text = lett;
+        }
+
+        private void btnZ_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            lett = "z";
+            textBox1.Text = lett;
         }
     }
 }

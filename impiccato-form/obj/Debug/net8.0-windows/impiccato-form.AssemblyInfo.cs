@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("impiccato-form")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e5ad7bf82b48cdd762c240fdf65bc0402eabbb2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f22b3f0ac92bc43ed8e011a73c5afea02d2e4704")]
 [assembly: System.Reflection.AssemblyProductAttribute("impiccato-form")]
 [assembly: System.Reflection.AssemblyTitleAttribute("impiccato-form")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
