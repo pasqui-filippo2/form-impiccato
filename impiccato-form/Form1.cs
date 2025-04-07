@@ -12,6 +12,8 @@ namespace impiccato_form
         string Psecret = "", Ptratt = "", lett = "";
         char[] lettere = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'z' };
         bool easy = false, medium = false, hard = false, vittoria = false;
+        char lettera;
+        char[] PtrattChar;
         Random rnd = new Random();
         char[] trasforma_parola(string parola, char[] lett, int scelta, char[] secret)
         {
@@ -133,17 +135,11 @@ namespace impiccato_form
             int random = rnd.Next(1, lines.Length - 1);
             Psecret = lines[random];
             char[] secret = new char[Psecret.Length];
-            for (int i = 0; i < Psecret.Length; i++)
-            {
-                for (int j = 0; j < lettere.Length; j++)
-                {
-                    if (Psecret[i] == lettere[j])
-                    {
-                        Ptratt += "_";
-                    }
-                }
-            }
+
+            Ptratt = new string(trasforma_parola(Psecret, lettere, scelta, secret));
+            PtrattChar = Ptratt.ToCharArray();
             txtParola.Text = Ptratt;
+
 
 
 
@@ -179,14 +175,17 @@ namespace impiccato_form
 
         private void button23_Click(object sender, EventArgs e)
         {
+            lettera = lett[0];
+
+
             if (Psecret.Contains(lett))
             {
-                Ptratt = Psecret;
+
                 for (int i = 0; i < Psecret.Length; i++)
                 {
-                    if (Psecret != lett)
+                    if (Psecret[i] == lettera)
                     {
-                        Ptratt += "_";
+                        PtrattChar[i] = lettera;
                     }
                 }
             }
@@ -195,20 +194,20 @@ namespace impiccato_form
                 tentativi--;
                 nup1.Value = tentativi;
                 lblErr.Text = "Hai sbagliato lettera";
-                lblLettErrate.Text = lett;
+                lblLettErrate.Text += lett;
                 if (tentativi == 0)
                 {
-                    lblParoleSbagliata.Text = Psecret + ",";
+                    lblParoleSbagliata.Text += Psecret + ",";
                 }
             }
             txtParola.Text = "";
-            txtParola.Text = Ptratt;
+            txtParola.Text = new string(PtrattChar);
             cercaL = 0;
-            for (int i = 0; i < Ptratt.Length; i++)
+            for (int i = 0; i < Psecret.Length; i++)
             {
                 for (int j = 0; j < lettere.Length; j++)
                 {
-                    if (Ptratt[i] == lettere[j])
+                    if (PtrattChar[i] == lettere[j])
                     {
                         cercaL++;
                     }
@@ -217,7 +216,47 @@ namespace impiccato_form
             if (cercaL == Psecret.Length)
             {
                 vittoria = true;
-                lblInd.Text = "Hai indovinato la parola";
+                lblInd.Text = "Parola Indovinata";
+            }
+            if (vittoria == true)
+            {
+                lblInd.Visible = true;
+                pictureBox2.Visible = true;
+                panel1.Visible = false;
+                nup1.Visible = false;
+                label5.Visible = false;
+                btnGenerete.Visible = false;
+                txtParola.Visible = false;
+                lblParoleSbagliata.Visible = false;
+                lblErr.Visible = false;
+                btnA.Visible = false;
+                btnB.Visible = false;
+                btnC.Visible = false;
+                btnD.Visible = false;
+                btnE.Visible = false;
+                btnF.Visible = false;
+                btnG.Visible = false;
+                btnH.Visible = false;
+                btnI.Visible = false;
+                btnL.Visible = false;
+                btnM.Visible = false;
+                btnN.Visible = false;
+                btnO.Visible = false;
+                btnP.Visible = false;
+                btnQ.Visible = false;
+                btnR.Visible = false;
+                btnS.Visible = false;
+                btnT.Visible = false;
+                btnU.Visible = false;
+                btnV.Visible = false;
+                btnZ.Visible = false;
+                button23.Visible = false;
+                btnWorld.Visible = false;
+                textBox1.Visible = false;
+                panel2.Visible = false;
+                btnEasy.Visible = false;
+                btnMedium.Visible = false;
+                btnHard.Visible = false;
             }
         }
 
@@ -225,9 +264,56 @@ namespace impiccato_form
         {
             if (Psecret.Contains(textBox1.Text))
             {
-                lblInd.Text = "Hai indovinato la poarola";
+                lblInd.Text = "Parola Indovinata";
+                vittoria = true;
+            }
+            else
+            {
+                lblErr.Text = "Parola errata";
+
+            }
+            if (vittoria == true)
+            {
+                lblInd.Visible = true;
+                pictureBox2.Visible = true;
+                panel1.Visible = false;
+                nup1.Visible = false;
+                label5.Visible = false;
+                btnGenerete.Visible = false;
+                txtParola.Visible = false;
+                lblParoleSbagliata.Visible = false;
+                lblErr.Visible = false;
+                btnA.Visible = false;
+                btnB.Visible = false;
+                btnC.Visible = false;
+                btnD.Visible = false;
+                btnE.Visible = false;    
+                btnF.Visible = false;
+                btnG.Visible = false;
+                btnH.Visible = false;
+                btnI.Visible = false;
+                btnL.Visible = false;
+                btnM.Visible = false;
+                btnN.Visible = false;
+                btnO.Visible = false;
+                btnP.Visible = false;
+                btnQ.Visible = false;
+                btnR.Visible = false;
+                btnS.Visible = false;
+                btnT.Visible = false;
+                btnU.Visible = false;
+                btnV.Visible = false;
+                btnZ.Visible = false;
+                button23.Visible = false;
+                btnWorld.Visible = false;
+                textBox1.Visible = false;
+                panel2.Visible = false;
+                btnEasy.Visible = false;
+                btnMedium.Visible = false;
+                btnHard.Visible = false;
             }
         }
+
 
         private void btnC_Click(object sender, EventArgs e)
         {
@@ -360,6 +446,16 @@ namespace impiccato_form
             textBox1.Text = "";
             lett = "z";
             textBox1.Text = lett;
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtParola_TextChanged_1(object sender, EventArgs e)
+        {
+            
         }
     }
 }
