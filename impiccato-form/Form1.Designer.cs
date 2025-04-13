@@ -72,6 +72,8 @@
             btnWorld = new Button();
             pictureBox2 = new PictureBox();
             pictureBox1 = new PictureBox();
+            paroleInd = new Label();
+            button1 = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)nup1).BeginInit();
             panel2.SuspendLayout();
@@ -319,6 +321,7 @@
             btnCanc.TabIndex = 21;
             btnCanc.Text = "CANC";
             btnCanc.UseVisualStyleBackColor = true;
+            btnCanc.Click += btnCanc_Click;
             // 
             // button23
             // 
@@ -355,12 +358,13 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(110, 35);
+            label5.Font = new Font("Snap ITC", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.Location = new Point(43, 36);
             label5.Margin = new Padding(4, 0, 4, 0);
             label5.Name = "label5";
-            label5.Size = new Size(59, 25);
+            label5.Size = new Size(179, 36);
             label5.TabIndex = 1;
-            label5.Text = "label5";
+            label5.Text = "Tentativi";
             // 
             // nup1
             // 
@@ -410,7 +414,7 @@
             // 
             // btnMedium
             // 
-            btnMedium.Location = new Point(466, 130);
+            btnMedium.Location = new Point(489, 130);
             btnMedium.Margin = new Padding(4, 5, 4, 5);
             btnMedium.Name = "btnMedium";
             btnMedium.Size = new Size(107, 38);
@@ -421,7 +425,7 @@
             // 
             // btnHard
             // 
-            btnHard.Location = new Point(604, 130);
+            btnHard.Location = new Point(642, 130);
             btnHard.Margin = new Padding(4, 5, 4, 5);
             btnHard.Name = "btnHard";
             btnHard.Size = new Size(107, 38);
@@ -471,6 +475,7 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(461, 56);
             panel2.TabIndex = 31;
+            panel2.Paint += panel2_Paint;
             // 
             // lblLettErrate
             // 
@@ -484,7 +489,7 @@
             // lblErr
             // 
             lblErr.AutoSize = true;
-            lblErr.Location = new Point(359, 365);
+            lblErr.Location = new Point(470, 368);
             lblErr.Margin = new Padding(4, 0, 4, 0);
             lblErr.Name = "lblErr";
             lblErr.Size = new Size(132, 25);
@@ -507,12 +512,12 @@
             // lblParoleSbagliata
             // 
             lblParoleSbagliata.AutoSize = true;
-            lblParoleSbagliata.Location = new Point(610, 230);
+            lblParoleSbagliata.Location = new Point(880, 304);
             lblParoleSbagliata.Margin = new Padding(4, 0, 4, 0);
             lblParoleSbagliata.Name = "lblParoleSbagliata";
-            lblParoleSbagliata.Size = new Size(59, 25);
+            lblParoleSbagliata.Size = new Size(147, 25);
             lblParoleSbagliata.TabIndex = 37;
-            lblParoleSbagliata.Text = "label4";
+            lblParoleSbagliata.Text = "Parole Sbagliate: ";
             // 
             // btnWorld
             // 
@@ -532,7 +537,7 @@
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(-21, -10);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(1171, 767);
+            pictureBox2.Size = new Size(1223, 767);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 39;
             pictureBox2.TabStop = false;
@@ -548,12 +553,38 @@
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             // 
+            // paroleInd
+            // 
+            paroleInd.AutoSize = true;
+            paroleInd.Location = new Point(880, 348);
+            paroleInd.Margin = new Padding(4, 0, 4, 0);
+            paroleInd.Name = "paroleInd";
+            paroleInd.Size = new Size(153, 25);
+            paroleInd.TabIndex = 40;
+            paroleInd.Text = "Parole Indovinate:";
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Red;
+            button1.Font = new Font("Showcard Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.ForeColor = SystemColors.ButtonHighlight;
+            button1.Location = new Point(439, 492);
+            button1.Name = "button1";
+            button1.Size = new Size(198, 57);
+            button1.TabIndex = 41;
+            button1.Text = "Continua";
+            button1.UseVisualStyleBackColor = false;
+            button1.Visible = false;
+            button1.Click += button1_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(1143, 750);
+            Controls.Add(button1);
+            Controls.Add(paroleInd);
             Controls.Add(pictureBox1);
             Controls.Add(btnWorld);
             Controls.Add(lblParoleSbagliata);
@@ -653,5 +684,7 @@
         private Button btnWorld;
         private PictureBox pictureBox2;
         private PictureBox pictureBox1;
+        private Label paroleInd;
+        private Button button1;
     }
 }

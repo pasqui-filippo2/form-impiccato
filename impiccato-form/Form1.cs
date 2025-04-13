@@ -220,6 +220,7 @@ namespace impiccato_form
             }
             if (vittoria == true)
             {
+                paroleInd.Text += Psecret;
                 lblInd.Visible = true;
                 pictureBox2.Visible = true;
                 panel1.Visible = false;
@@ -257,6 +258,8 @@ namespace impiccato_form
                 btnEasy.Visible = false;
                 btnMedium.Visible = false;
                 btnHard.Visible = false;
+                btnCanc.Visible = false;
+                pictureBox1.Visible = false;
             }
         }
 
@@ -265,6 +268,7 @@ namespace impiccato_form
             if (Psecret.Contains(textBox1.Text))
             {
                 lblInd.Text = "Parola Indovinata";
+                paroleInd.Text += Psecret;
                 vittoria = true;
             }
             else
@@ -274,6 +278,8 @@ namespace impiccato_form
             }
             if (vittoria == true)
             {
+                paroleInd.Text += Psecret;
+                button1.Visible = true;
                 lblInd.Visible = true;
                 pictureBox2.Visible = true;
                 panel1.Visible = false;
@@ -287,7 +293,7 @@ namespace impiccato_form
                 btnB.Visible = false;
                 btnC.Visible = false;
                 btnD.Visible = false;
-                btnE.Visible = false;    
+                btnE.Visible = false;
                 btnF.Visible = false;
                 btnG.Visible = false;
                 btnH.Visible = false;
@@ -311,6 +317,8 @@ namespace impiccato_form
                 btnEasy.Visible = false;
                 btnMedium.Visible = false;
                 btnHard.Visible = false;
+                btnCanc.Visible = false;
+                pictureBox1.Visible = false;
             }
         }
 
@@ -455,7 +463,65 @@ namespace impiccato_form
 
         private void txtParola_TextChanged_1(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txtParola.Text = "";
+            lblLettErrate.Text = "";
+            tentativi = 0;
+            paroleInd.Text += Psecret;
+            button1.Visible = false;
+            lblInd.Visible = false;
+            pictureBox2.Visible = false;
+            panel1.Visible = true;
+            nup1.Visible = true;
+            label5.Visible = true;
+            btnGenerete.Visible = true;
+            txtParola.Visible = true;
+            lblParoleSbagliata.Visible = true;
+            lblErr.Visible = true;
+            btnA.Visible = true;
+            btnB.Visible = true;
+            btnC.Visible = true;
+            btnD.Visible = true;
+            btnE.Visible = true;
+            btnF.Visible = true;
+            btnG.Visible = true;
+            btnH.Visible = true;
+            btnI.Visible = true;
+            btnL.Visible = true;
+            btnM.Visible = true;
+            btnN.Visible = true;
+            btnO.Visible = true;
+            btnP.Visible = true;
+            btnQ.Visible = true;
+            btnR.Visible = true;
+            btnS.Visible = true;
+            btnT.Visible = true;
+            btnU.Visible = true;
+            btnV.Visible = true;
+            btnZ.Visible = true;
+            button23.Visible = true;
+            btnWorld.Visible = true;
+            textBox1.Visible = true;
+            panel2.Visible = true;
+            btnEasy.Visible = true;
+            btnMedium.Visible = true;
+            btnHard.Visible = true;
+            btnCanc.Visible = true;
+            pictureBox1.Visible = true;
+        }
+
+        private void btnCanc_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
         }
     }
 }
