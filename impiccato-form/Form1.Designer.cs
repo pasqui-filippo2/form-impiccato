@@ -74,11 +74,18 @@
             pictureBox1 = new PictureBox();
             paroleInd = new Label();
             button1 = new Button();
+            button2 = new Button();
+            pictureBox3 = new PictureBox();
+            button3 = new Button();
+            label4 = new Label();
+            pictureBox4 = new PictureBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)nup1).BeginInit();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             SuspendLayout();
             // 
             // btnA
@@ -90,6 +97,7 @@
             btnA.TabIndex = 0;
             btnA.Text = "A";
             btnA.UseVisualStyleBackColor = true;
+            btnA.Visible = false;
             btnA.Click += btnA_Click;
             // 
             // btnG
@@ -101,6 +109,7 @@
             btnG.TabIndex = 1;
             btnG.Text = "G";
             btnG.UseVisualStyleBackColor = true;
+            btnG.Visible = false;
             btnG.Click += btnG_Click;
             // 
             // btnF
@@ -112,6 +121,7 @@
             btnF.TabIndex = 2;
             btnF.Text = "F";
             btnF.UseVisualStyleBackColor = true;
+            btnF.Visible = false;
             btnF.Click += btnF_Click;
             // 
             // btnE
@@ -123,6 +133,7 @@
             btnE.TabIndex = 3;
             btnE.Text = "E";
             btnE.UseVisualStyleBackColor = true;
+            btnE.Visible = false;
             btnE.Click += btnE_Click;
             // 
             // btnD
@@ -134,6 +145,7 @@
             btnD.TabIndex = 4;
             btnD.Text = "D";
             btnD.UseVisualStyleBackColor = true;
+            btnD.Visible = false;
             btnD.Click += btnD_Click;
             // 
             // btnC
@@ -145,6 +157,7 @@
             btnC.TabIndex = 5;
             btnC.Text = "C";
             btnC.UseVisualStyleBackColor = true;
+            btnC.Visible = false;
             btnC.Click += btnC_Click;
             // 
             // btnB
@@ -156,6 +169,7 @@
             btnB.TabIndex = 6;
             btnB.Text = "B";
             btnB.UseVisualStyleBackColor = true;
+            btnB.Visible = false;
             btnB.Click += btnB_Click;
             // 
             // btnR
@@ -167,6 +181,7 @@
             btnR.TabIndex = 13;
             btnR.Text = "R";
             btnR.UseVisualStyleBackColor = true;
+            btnR.Visible = false;
             btnR.Click += btnR_Click;
             // 
             // btnS
@@ -178,6 +193,7 @@
             btnS.TabIndex = 12;
             btnS.Text = "S";
             btnS.UseVisualStyleBackColor = true;
+            btnS.Visible = false;
             btnS.Click += btnS_Click;
             // 
             // btnT
@@ -189,6 +205,7 @@
             btnT.TabIndex = 11;
             btnT.Text = "T";
             btnT.UseVisualStyleBackColor = true;
+            btnT.Visible = false;
             btnT.Click += btnT_Click;
             // 
             // btnU
@@ -200,6 +217,7 @@
             btnU.TabIndex = 10;
             btnU.Text = "U";
             btnU.UseVisualStyleBackColor = true;
+            btnU.Visible = false;
             btnU.Click += btnU_Click;
             // 
             // btnV
@@ -211,6 +229,7 @@
             btnV.TabIndex = 9;
             btnV.Text = "V";
             btnV.UseVisualStyleBackColor = true;
+            btnV.Visible = false;
             btnV.Click += btnV_Click;
             // 
             // btnZ
@@ -222,6 +241,7 @@
             btnZ.TabIndex = 8;
             btnZ.Text = "Z";
             btnZ.UseVisualStyleBackColor = true;
+            btnZ.Visible = false;
             btnZ.Click += btnZ_Click;
             // 
             // btnQ
@@ -233,6 +253,7 @@
             btnQ.TabIndex = 7;
             btnQ.Text = "Q";
             btnQ.UseVisualStyleBackColor = true;
+            btnQ.Visible = false;
             btnQ.Click += btnQ_Click;
             // 
             // btnI
@@ -244,6 +265,7 @@
             btnI.TabIndex = 20;
             btnI.Text = "I";
             btnI.UseVisualStyleBackColor = true;
+            btnI.Visible = false;
             btnI.Click += btnI_Click;
             // 
             // btnL
@@ -255,6 +277,7 @@
             btnL.TabIndex = 19;
             btnL.Text = "L";
             btnL.UseVisualStyleBackColor = true;
+            btnL.Visible = false;
             btnL.Click += btnL_Click;
             // 
             // btnM
@@ -266,6 +289,7 @@
             btnM.TabIndex = 18;
             btnM.Text = "M";
             btnM.UseVisualStyleBackColor = true;
+            btnM.Visible = false;
             btnM.Click += btnM_Click;
             // 
             // btnN
@@ -277,6 +301,7 @@
             btnN.TabIndex = 17;
             btnN.Text = "N";
             btnN.UseVisualStyleBackColor = true;
+            btnN.Visible = false;
             btnN.Click += btnN_Click;
             // 
             // btnO
@@ -288,6 +313,7 @@
             btnO.TabIndex = 16;
             btnO.Text = "O";
             btnO.UseVisualStyleBackColor = true;
+            btnO.Visible = false;
             btnO.Click += btnO_Click;
             // 
             // btnP
@@ -299,6 +325,7 @@
             btnP.TabIndex = 15;
             btnP.Text = "P";
             btnP.UseVisualStyleBackColor = true;
+            btnP.Visible = false;
             btnP.Click += btnP_Click;
             // 
             // btnH
@@ -310,37 +337,44 @@
             btnH.TabIndex = 14;
             btnH.Text = "H";
             btnH.UseVisualStyleBackColor = true;
+            btnH.Visible = false;
             btnH.Click += btnH_Click;
             // 
             // btnCanc
             // 
-            btnCanc.Location = new Point(700, 455);
+            btnCanc.Location = new Point(699, 455);
             btnCanc.Margin = new Padding(4, 5, 4, 5);
             btnCanc.Name = "btnCanc";
-            btnCanc.Size = new Size(73, 165);
+            btnCanc.Size = new Size(84, 165);
             btnCanc.TabIndex = 21;
             btnCanc.Text = "CANC";
             btnCanc.UseVisualStyleBackColor = true;
+            btnCanc.Visible = false;
             btnCanc.Click += btnCanc_Click;
             // 
             // button23
             // 
+            button23.BackColor = Color.Yellow;
+            button23.Cursor = Cursors.AppStarting;
             button23.Location = new Point(285, 403);
             button23.Margin = new Padding(4, 5, 4, 5);
             button23.Name = "button23";
             button23.Size = new Size(158, 42);
             button23.TabIndex = 22;
             button23.Text = "INVIA LETTERA";
-            button23.UseVisualStyleBackColor = true;
+            button23.UseVisualStyleBackColor = false;
+            button23.Visible = false;
             button23.Click += button23_Click;
             // 
             // textBox1
             // 
+            textBox1.Cursor = Cursors.IBeam;
             textBox1.Location = new Point(451, 409);
             textBox1.Margin = new Padding(4, 5, 4, 5);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(183, 31);
             textBox1.TabIndex = 23;
+            textBox1.Visible = false;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
             // panel1
@@ -354,6 +388,7 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(260, 141);
             panel1.TabIndex = 24;
+            panel1.Visible = false;
             // 
             // label5
             // 
@@ -365,9 +400,11 @@
             label5.Size = new Size(179, 36);
             label5.TabIndex = 1;
             label5.Text = "Tentativi";
+            label5.Visible = false;
             // 
             // nup1
             // 
+            nup1.Cursor = Cursors.No;
             nup1.Enabled = false;
             nup1.Location = new Point(43, 77);
             nup1.Margin = new Padding(4, 5, 4, 5);
@@ -389,49 +426,61 @@
             label1.Size = new Size(497, 78);
             label1.TabIndex = 25;
             label1.Text = "Gioco Dell'impiccato";
+            label1.Visible = false;
             label1.Click += label1_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(493, 97);
+            label2.Font = new Font("Snap ITC", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(470, 101);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(109, 25);
+            label2.Size = new Size(147, 24);
             label2.TabIndex = 26;
             label2.Text = "DIFFICOLTA'";
+            label2.Visible = false;
             // 
             // btnEasy
             // 
+            btnEasy.BackColor = Color.FromArgb(128, 255, 128);
+            btnEasy.Font = new Font("Tempus Sans ITC", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnEasy.Location = new Point(336, 130);
             btnEasy.Margin = new Padding(4, 5, 4, 5);
             btnEasy.Name = "btnEasy";
             btnEasy.Size = new Size(107, 38);
             btnEasy.TabIndex = 27;
             btnEasy.Text = "FACILE";
-            btnEasy.UseVisualStyleBackColor = true;
+            btnEasy.UseVisualStyleBackColor = false;
+            btnEasy.Visible = false;
             btnEasy.Click += btnEasy_Click;
             // 
             // btnMedium
             // 
+            btnMedium.BackColor = Color.FromArgb(255, 192, 128);
+            btnMedium.Font = new Font("Tempus Sans ITC", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnMedium.Location = new Point(489, 130);
             btnMedium.Margin = new Padding(4, 5, 4, 5);
             btnMedium.Name = "btnMedium";
             btnMedium.Size = new Size(107, 38);
             btnMedium.TabIndex = 28;
             btnMedium.Text = "MEDIO";
-            btnMedium.UseVisualStyleBackColor = true;
+            btnMedium.UseVisualStyleBackColor = false;
+            btnMedium.Visible = false;
             btnMedium.Click += btnMedium_Click;
             // 
             // btnHard
             // 
+            btnHard.BackColor = Color.FromArgb(255, 128, 128);
+            btnHard.Font = new Font("Tempus Sans ITC", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnHard.Location = new Point(642, 130);
             btnHard.Margin = new Padding(4, 5, 4, 5);
             btnHard.Name = "btnHard";
             btnHard.Size = new Size(107, 38);
             btnHard.TabIndex = 29;
             btnHard.Text = "DIFFICILE";
-            btnHard.UseVisualStyleBackColor = true;
+            btnHard.UseVisualStyleBackColor = false;
+            btnHard.Visible = false;
             btnHard.Click += btnHard_Click;
             // 
             // label3
@@ -452,17 +501,21 @@
             txtParola.ReadOnly = true;
             txtParola.Size = new Size(260, 45);
             txtParola.TabIndex = 32;
+            txtParola.Visible = false;
             txtParola.TextChanged += txtParola_TextChanged_1;
             // 
             // btnGenerete
             // 
-            btnGenerete.Location = new Point(310, 263);
+            btnGenerete.BackColor = Color.FromArgb(255, 255, 128);
+            btnGenerete.Cursor = Cursors.AppStarting;
+            btnGenerete.Location = new Point(310, 254);
             btnGenerete.Margin = new Padding(4, 5, 4, 5);
             btnGenerete.Name = "btnGenerete";
-            btnGenerete.Size = new Size(193, 38);
+            btnGenerete.Size = new Size(193, 47);
             btnGenerete.TabIndex = 33;
             btnGenerete.Text = "GENERA PAROLA -->";
-            btnGenerete.UseVisualStyleBackColor = true;
+            btnGenerete.UseVisualStyleBackColor = false;
+            btnGenerete.Visible = false;
             btnGenerete.Click += btnGenerete_Click;
             // 
             // panel2
@@ -475,6 +528,7 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(461, 56);
             panel2.TabIndex = 31;
+            panel2.Visible = false;
             panel2.Paint += panel2_Paint;
             // 
             // lblLettErrate
@@ -512,7 +566,7 @@
             // lblParoleSbagliata
             // 
             lblParoleSbagliata.AutoSize = true;
-            lblParoleSbagliata.Location = new Point(880, 304);
+            lblParoleSbagliata.Location = new Point(880, 317);
             lblParoleSbagliata.Margin = new Padding(4, 0, 4, 0);
             lblParoleSbagliata.Name = "lblParoleSbagliata";
             lblParoleSbagliata.Size = new Size(147, 25);
@@ -521,13 +575,16 @@
             // 
             // btnWorld
             // 
+            btnWorld.BackColor = Color.Yellow;
+            btnWorld.Cursor = Cursors.AppStarting;
             btnWorld.Location = new Point(642, 403);
             btnWorld.Margin = new Padding(4, 5, 4, 5);
             btnWorld.Name = "btnWorld";
             btnWorld.Size = new Size(163, 42);
             btnWorld.TabIndex = 38;
             btnWorld.Text = "INVIA PAROLA";
-            btnWorld.UseVisualStyleBackColor = true;
+            btnWorld.UseVisualStyleBackColor = false;
+            btnWorld.Visible = false;
             btnWorld.Click += btnWorld_Click;
             // 
             // pictureBox2
@@ -537,7 +594,7 @@
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(-21, -10);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(1223, 767);
+            pictureBox2.Size = new Size(1226, 799);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 39;
             pictureBox2.TabStop = false;
@@ -546,17 +603,18 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(12, 0);
+            pictureBox1.Location = new Point(115, -9);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(240, 453);
+            pictureBox1.Size = new Size(144, 351);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
+            pictureBox1.Visible = false;
             // 
             // paroleInd
             // 
             paroleInd.AutoSize = true;
-            paroleInd.Location = new Point(880, 348);
+            paroleInd.Location = new Point(880, 358);
             paroleInd.Margin = new Padding(4, 0, 4, 0);
             paroleInd.Name = "paroleInd";
             paroleInd.Size = new Size(153, 25);
@@ -566,6 +624,7 @@
             // button1
             // 
             button1.BackColor = Color.Red;
+            button1.Cursor = Cursors.Hand;
             button1.Font = new Font("Showcard Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = SystemColors.ButtonHighlight;
             button1.Location = new Point(439, 492);
@@ -577,12 +636,78 @@
             button1.Visible = false;
             button1.Click += button1_Click;
             // 
+            // button2
+            // 
+            button2.BackColor = Color.Yellow;
+            button2.Font = new Font("SimSun", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.Location = new Point(880, 396);
+            button2.Name = "button2";
+            button2.Size = new Size(112, 34);
+            button2.TabIndex = 42;
+            button2.Text = "JOLLY";
+            button2.UseVisualStyleBackColor = false;
+            button2.Visible = false;
+            button2.Click += button2_Click;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(-9, -9);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(1157, 773);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.TabIndex = 43;
+            pictureBox3.TabStop = false;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.Red;
+            button3.Cursor = Cursors.Hand;
+            button3.Font = new Font("Showcard Gothic", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button3.ForeColor = SystemColors.ActiveCaptionText;
+            button3.Location = new Point(400, 317);
+            button3.Name = "button3";
+            button3.Size = new Size(337, 113);
+            button3.TabIndex = 44;
+            button3.Text = "PLAY";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.BackColor = Color.Brown;
+            label4.Font = new Font("Showcard Gothic", 24F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label4.Location = new Point(220, 9);
+            label4.Name = "label4";
+            label4.Size = new Size(673, 60);
+            label4.TabIndex = 45;
+            label4.Text = " ! Gioco Dell' Impiccato !";
+            // 
+            // pictureBox4
+            // 
+            pictureBox4.BackColor = Color.White;
+            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
+            pictureBox4.Location = new Point(779, 276);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(403, 215);
+            pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox4.TabIndex = 46;
+            pictureBox4.TabStop = false;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ActiveCaption;
+            BackColor = Color.White;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1143, 750);
+            Controls.Add(pictureBox4);
+            Controls.Add(label4);
+            Controls.Add(button3);
+            Controls.Add(pictureBox3);
+            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(paroleInd);
             Controls.Add(pictureBox1);
@@ -635,6 +760,8 @@
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -686,5 +813,10 @@
         private PictureBox pictureBox1;
         private Label paroleInd;
         private Button button1;
+        private Button button2;
+        private PictureBox pictureBox3;
+        private Button button3;
+        private Label label4;
+        private PictureBox pictureBox4;
     }
 }
