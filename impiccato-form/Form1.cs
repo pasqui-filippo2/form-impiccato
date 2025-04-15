@@ -582,6 +582,12 @@ namespace impiccato_form
                     PtrattChar[i] = jolly[i];
                     conta = 1;
                 }
+                else
+                {
+                    conta = 0;
+                }
+
+                    
                 if (conta == 1)
                 {
                     i = Psecret.Length - 1;

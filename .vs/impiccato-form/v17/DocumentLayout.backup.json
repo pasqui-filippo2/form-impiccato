@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\pasqui.filippo\\Desktop\\form-impiccato\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3EC8EC1-59EA-4E83-893D-FD63448312E0}|impiccato-form\\impiccato-form.csproj|c:\\users\\pasqui.filippo\\desktop\\form-impiccato\\impiccato-form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3EC8EC1-59EA-4E83-893D-FD63448312E0}|impiccato-form\\impiccato-form.csproj|solutionrelative:impiccato-form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B3EC8EC1-59EA-4E83-893D-FD63448312E0}|impiccato-form\\impiccato-form.csproj|c:\\users\\pasqui.filippo\\desktop\\form-impiccato\\impiccato-form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3EC8EC1-59EA-4E83-893D-FD63448312E0}|impiccato-form\\impiccato-form.csproj|solutionrelative:impiccato-form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC8EC1-59EA-4E83-893D-FD63448312E0}|impiccato-form\\impiccato-form.csproj|C:\\Users\\pasqui.filippo\\Desktop\\form-impiccato\\impiccato-form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3EC8EC1-59EA-4E83-893D-FD63448312E0}|impiccato-form\\impiccato-form.csproj|solutionrelative:impiccato-form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3EC8EC1-59EA-4E83-893D-FD63448312E0}|impiccato-form\\impiccato-form.csproj|c:\\users\\pasqui.filippo\\desktop\\form-impiccato\\impiccato-form\\impiccato-form.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -42,33 +42,31 @@
               "RelativeToolTip": "impiccato-form\\Form1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T16:04:32.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T16:04:32.472Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\pasqui.filippo\\Desktop\\form-impiccato\\impiccato-form\\Form1.cs",
               "RelativeDocumentMoniker": "impiccato-form\\Form1.cs",
               "ToolTip": "C:\\Users\\pasqui.filippo\\Desktop\\form-impiccato\\impiccato-form\\Form1.cs",
               "RelativeToolTip": "impiccato-form\\Form1.cs",
-              "ViewState": "AgIAAPwBAAAAAAAAAAAUwAwCAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAADYCAAAAAAAAAAAAAEwCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T16:05:11.447Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Progettazione]",
               "DocumentMoniker": "C:\\Users\\pasqui.filippo\\Desktop\\form-impiccato\\impiccato-form\\Form1.cs",
               "RelativeDocumentMoniker": "impiccato-form\\Form1.cs",
               "ToolTip": "C:\\Users\\pasqui.filippo\\Desktop\\form-impiccato\\impiccato-form\\Form1.cs [Progettazione]",
               "RelativeToolTip": "impiccato-form\\Form1.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T16:02:13.983Z",
-              "EditorCaption": " [Progettazione]"
+              "WhenOpened": "2025-04-05T16:02:13.983Z"
             },
             {
               "$type": "Document",
